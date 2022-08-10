@@ -15,18 +15,18 @@ body {
 header {
     background-color: rgb(0, 0, 0);
     color: white;
-    width: 420px;
+    width: 400px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2.3em;
     font-weight: 600;
     height: 45px;
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 10px 0;
 }
 
 article {
-    width: 420px;
+    width: 400px;
     background-color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
@@ -47,11 +47,12 @@ p {
 section {
     display: flex;
     flex-direction: column;
-    width: 420px;
+    width: 400px;
     background-color: white;
     color: black;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
     
 }
 
@@ -63,3 +64,37 @@ table {
     border: 1px;
 }
 
+thead {
+    background-color: black;
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    width: 120px;
+    text-align: center;
+}
+
+td.numero {
+    width: 40px;
+}
+
+.situacao {
+    width: 80px;
+}
+
+.atraso {
+    background-color: red;
+    color: white;
+}
+
+footer {
+    width: 400px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 25px;
+    line-height: 25px;
+}
