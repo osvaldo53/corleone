@@ -88,6 +88,11 @@ td.numero {
     color: white;
 }
 
+.emdia {
+    background-color: green;
+    color: white;
+}
+
 footer {
     width: 400px;
     background-color: black;
